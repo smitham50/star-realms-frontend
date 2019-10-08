@@ -1,12 +1,12 @@
 import React from 'react'
 import Card from './card'
 
-function Explorers(props) {
+function Discard(props) {
   return (
-    <div id="explorers">
+    <div className="discard">
 
     </div>
   )
 }
 
-export default Explorers
+export default Discard

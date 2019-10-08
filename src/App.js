@@ -1,15 +1,14 @@
 import React from 'react'
 import './App.css'
 import TradeArea from './containers/tradearea'
-import PlayerOneArea from './containers/playeronearea'
-import PlayerTwoArea from './containers/playertwoarea'
+import PlayerArea from './containers/playerarea'
 
 function App() {
   return (
     <div className="App">
-      <PlayerTwoArea />
+      <PlayerArea />
       <TradeArea />
-      <PlayerOneArea />     
+      <PlayerArea />     
     </div>
   )
 }
