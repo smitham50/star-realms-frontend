@@ -3,7 +3,7 @@ import Card from './card'
 
 function Explorers (props) {
   return (
-    <div>
+    <div id="explorers">
 
     </div>
   )
