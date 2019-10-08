@@ -6,8 +6,9 @@ import * as serviceWorker from './serviceWorker'
 import { createStore, combineReducers } from 'redux'
 import { Provider } from 'react-redux'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
+import tradeReducer from './reducers/tradereducer'
 
-const rootReducer = combineReducers({ })
+const rootReducer = combineReducers({ trade: tradeReducer })
 
 const store = createStore(rootReducer)
 
