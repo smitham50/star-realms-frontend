@@ -8,7 +8,7 @@ import Bases from '../components/bases'
 class PlayerArea extends React.Component {
   render() {
     return (
-      <div id="player-one-area">
+      <div className="player-area">
         <PlayerInfo />
         <Discard />
         <Deck />
