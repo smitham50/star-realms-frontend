@@ -25,4 +25,34 @@ html body {
   border: solid 1px;
   height: 33%;
   width: 100vw;
+  display: flex;
 }
+
+#explorers {
+  border: solid 1px;
+  width: 12.5%;
+  height: 100%;
+}
+
+#trade-row {
+  border: solid 1px;
+  width: 62.5%;
+  height: 100%;
+  display: flex;
+}
+
+#trade-deck {
+  border: solid 1px;
+  width: 12.5%;
+  height: 100%;
+}
+
+#scrap-heap {
+  border: solid 1px;
+  width: 12.5%;
+  height: 100%;
+}
+
+
+
+
